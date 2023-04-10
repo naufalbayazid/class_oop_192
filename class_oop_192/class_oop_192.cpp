@@ -37,7 +37,7 @@ public:
 
 };
 
-int main ()
+int main()
 {
 	Mahasiswa mhs1;
 	matakuliah mk;
@@ -46,3 +46,8 @@ int main ()
 	cin >> mhs1.nim;
 	cout "masukkan nama = ";
 	cin >> mhs1.nama;
+
+	mk.inputMK();
+	mhs1.tampil();
+	mk.tampilMK();
+}
