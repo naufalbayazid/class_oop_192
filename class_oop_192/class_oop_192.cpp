@@ -39,15 +39,11 @@ public:
 
 int main()
 {
-	Mahasiswa mhs1;
+	mahasiswa mhs1;
 	matakuliah mk;
 
 	cout << "masukkan nim = ";
 	cin >> mhs1.nim;
-	cout "masukkan nama = ";
+	cout << "masukkan nama = ";
 	cin >> mhs1.nama;
 
-	mk.inputMK();
-	mhs1.tampil();
-	mk.tampilMK();
-}
