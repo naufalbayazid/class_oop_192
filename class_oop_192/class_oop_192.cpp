@@ -16,14 +16,25 @@ private:
 	int sks;
 	string kode;
 	string namaMK;
-public :
-void input() {
-	cout << "\n\nMasukkan kode matakuliah : ";
-	cin >> kode;
-	cout << "masukkan matakuliah = ";
-	cin >> namaMK;
-	cout << "jumlah SKS = ";
-	cin >> sks;
-}
+public:
+	void inputMK() {
+		cout << "\n\nMasukkan kode matakuliah : ";
+		cin >> kode;
+		cout << "masukkan matakuliah = ";
+		cin >> namaMK;
+		cout << "jumlah SKS = ";
+		cin >> sks;
+	}
+
+	void tampil MK() {
+		cout << "\nMasukkan jumlah SKS= ";
+		cin >> sks;
+		cout << "masukkan kode MK= ";
+		cin >> kode;
+		cout << "\nMasukkan Nama MK= ";
+		cin >> namaMK;
+	}
+     
+
 
 
