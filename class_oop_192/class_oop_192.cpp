@@ -47,3 +47,7 @@ int main()
 	cout << "masukkan nama = ";
 	cin >> mhs1.nama;
 
+
+	mk.inputMK()
+	
+}
