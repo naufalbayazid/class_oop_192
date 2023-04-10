@@ -26,7 +26,7 @@ public:
 		cin >> sks;
 	}
 
-	void tampil MK() {
+	void tampilMK() {
 		cout << "\nMasukkan jumlah SKS= ";
 		cin >> sks;
 		cout << "masukkan kode MK= ";
@@ -34,7 +34,15 @@ public:
 		cout << "\nMasukkan Nama MK= ";
 		cin >> namaMK;
 	}
-     
 
+};
 
+int main ()
+{
+	Mahasiswa mhs1;
+	matakuliah mk;
 
+	cout << "masukkan nim = ";
+	cin >> mhs1.nim;
+	cout "masukkan nama = ";
+	cin >> mhs1.nama;
